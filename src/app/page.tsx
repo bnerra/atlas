@@ -11,10 +11,10 @@ export default function Home() {
           </h1>
           <Card>
             <h2 className='text-2xl font-semibold'>
-              Design System Test
+              The room is built.
             </h2>
-            <p>
-              If this card feels intentional, the foundation is working.
+            <p className='mt-4 text-[var(--atlas-text-muted)]'>
+              Next stop: the journey begins.
             </p>
           </Card>
         </div>
