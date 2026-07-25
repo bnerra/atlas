@@ -14,16 +14,16 @@ export default function Card({
       className={`
         relative
         overflow-hidden
-        rounded-[var(--atlas-radius-lg)]
+        rounded-atlas-lg
         border
-        border-[var(--atlas-border)]
-        bg-[var(--atlas-surface)]
+        border-atlas-border
+        bg-atlas-surface
         p-6
-        shadow-[var(--atlas-shadow)]
+        shadow-atlas
         transition-all
         duration-300
         hover:-translate-y-1
-        hover:shadow-[var(--atlas-shadow-hover)]
+        hover:shadow-atlas-hover
         ${className}
       `}
     >

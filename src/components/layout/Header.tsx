@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import Container from '@/components/ui/Container'
 
 export default function Header() {
@@ -8,7 +9,7 @@ export default function Header() {
         top-0
         z-50
         border-b
-        border-[var(--atlas-border)]
+        border-atlas-border
         bg-[rgba(11,18,32,0.75)]
         backdrop-blur-md
       '
@@ -19,7 +20,7 @@ export default function Header() {
             Atlas
           </div>
 
-          <nav className='hidden gap-8 text-sm text-[var(--atlas-text-muted)]'>
+          <nav className='hidden gap-8 text-sm text-(--atlas-text-muted)'>
             <a href='/'>
               Home
             </a>

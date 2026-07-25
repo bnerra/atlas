@@ -7,8 +7,8 @@ html {
 
 body {
   min-height: 100vh;
-  background: var(--atlas-background);
-  color: var(--atlas-text);
+  background: var(--color-atlas-background);
+  color: var(--color-atlas-foreground);
 }
 
 /* :root {

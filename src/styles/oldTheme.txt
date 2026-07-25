@@ -1,0 +1,24 @@
+
+:root {
+  /* Atlas Colors */
+  --atlas-background: #0B1220;
+  --atlas-surface: #162033;
+  --atlas-surface-raised: #23344D;
+  --atlas-text: #F8FAFC;
+  --atlas-text-muted: #A7B6C8;
+  --atlas-accent: #56C7F2;
+  --atlas-border: rgba(255,255,255,0.12);
+
+  /* Atlas Shadows */
+  --atlas-shadow:0 25px 60px rgba(0,0,0,0.35);
+  --atlas-shadow-hover: 0 35px 80px rgba(0,0,0,0.50);
+
+  /* Atlas Radius */
+  --atlas-radius-sm: 12px;
+  --atlas-radius-md: 20px;
+  --atlas-radius-lg: 24px;
+
+
+  /* Atlas Motion */
+  --atlas-transition: 250ms ease;
+} 
