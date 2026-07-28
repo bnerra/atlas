@@ -8,7 +8,7 @@ export default function IdeaSection({
   idea
 }: IdeaSectionProps) {
   return (
-    <ProjectSection title='The Idea'>
+    <ProjectSection id='idea' title='The Idea'>
       <p>{idea}</p>
     </ProjectSection>
   )

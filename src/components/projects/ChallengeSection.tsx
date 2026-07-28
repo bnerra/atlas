@@ -9,7 +9,7 @@ export default function ChallengeSection({
   challenges
 }: ChallengeSectionProps) {
   return (
-    <ProjectSection title='Challenges'>
+    <ProjectSection id='challenges' title='Challenges'>
       <div className='space-y-6'>
         {challenges.map((challenge) => (
           <div

@@ -8,7 +8,7 @@ export default function SolutionSection({
   solution,
 }: SolutionSectionProps) {
   return (
-    <ProjectSection title='The Approach'>
+    <ProjectSection id='approach' title='The Approach'>
       {solution}
     </ProjectSection>
   )

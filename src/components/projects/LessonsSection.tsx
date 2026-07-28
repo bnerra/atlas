@@ -9,7 +9,7 @@ export default function LessonsSection({
   lessons,
 }: LessonsSectionProps) {
   return (
-    <ProjectSection title='Lessons Learned'>
+    <ProjectSection id='lessons' title='Lessons Learned'>
       <div className='flex flex-wrap gap-3'>
         { lessons.map((lesson) => (
           <Badge key={lesson}>
