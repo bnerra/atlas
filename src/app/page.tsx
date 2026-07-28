@@ -1,4 +1,5 @@
 import CurrentBearing from '@/components/home/CurrentBearing'
+import Explore from '@/components/home/Explore'
 import Hero from '@/components/home/Hero'
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <Hero />
       <CurrentBearing />
+      <Explore />
     </>
     // <main className='min-h-screen'>
     //   <Container>

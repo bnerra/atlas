@@ -1,11 +1,11 @@
 
-export interface NavigationItem {
+export interface ExploreItem {
   label: string
   description: string
   href: string
 }
 
-export const navigation: NavigationItem[] = [
+export const exploreItems: ExploreItem[] = [
   {
     label:'Projects',
     description: 'Applications, experiments and ideas brought to life through code.',
