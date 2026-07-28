@@ -6,4 +6,7 @@ export interface Project {
   description: string
   technologies: string[]
   featured: boolean
+  problem: string
+  solution: string
+  lessons: string[]
 }

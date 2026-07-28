@@ -9,7 +9,7 @@ export default function Explore() {
     <Container>
       <Section
         eyebrow='Navigation'
-        title='Explore Atlas'
+        title='Explore'
         description='Discover the projects, experiences, and ideas that make up my journey.'
       >
         <div className='grid gap-6 md:grid-cols-2'>
