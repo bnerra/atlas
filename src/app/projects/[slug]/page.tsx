@@ -5,6 +5,7 @@ import ProblemSection from "@/components/projects/ProblemSection"
 import SolutionSection from "@/components/projects/SolutionSection"
 import LessonsSection from "@/components/projects/LessonsSection"
 import { projects } from '@/data/projects'
+import ArchitectureSection from '@/components/projects/ArchitectureSection'
 
 interface ProjectPageProps {
   params: Promise<{
@@ -30,6 +31,7 @@ export default async function ProjectPage({
       <ProjectHero project={project} />
       <ProblemSection problem={project.problem} />
       <SolutionSection solution={project.solution} />
+      <ArchitectureSection architecture={project.architecture ?? []} />
       <LessonsSection lessons={project.lessons} />
     </Container>
   )

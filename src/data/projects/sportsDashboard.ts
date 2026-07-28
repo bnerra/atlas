@@ -20,5 +20,27 @@ export const sportsDashboard: Project = {
     'Designing interfaces for constrained hardware.',
     'Building reliable real-time data flows.',
     'Balancing simplicity and scalability.',
+  ],
+  architecture: [
+    {
+      name: 'MLB Stats API',
+      description: 'Live baseball data source',
+    },
+    {
+      name: 'Fastify API',
+      description: 'Backend service responsible for data processing',
+    },
+    {
+      name: 'Server-Sent Events',
+      description: 'Real-time updates from server to client',
+    },
+    {
+      name: 'React Interface',
+      description: 'Responsive dashboard experience',
+    },
+    {
+      name: 'Raspberry Pi',
+      description: 'Dedicated always-on display hardware',
+    }
   ]
 }
