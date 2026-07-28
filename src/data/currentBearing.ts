@@ -9,7 +9,7 @@ export const currentBearing: BearingGroup[] = [
     title: 'Building',
     items: [
       'Atlas',
-      'MLB Sports Dashboard'
+      'Sports Dashboard'
     ]
   },
   {

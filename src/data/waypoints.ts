@@ -19,6 +19,6 @@ export const waypoints: Waypoint[] = [
   },
   {
     title: 'Atlas',
-    description: 'Continuing the journey by documenting projects, ideas and lessons learned.'
+    description: 'A place to document projects, ideas, lessons learned, and the continuing journey.'
   }
 ]
