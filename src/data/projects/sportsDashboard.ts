@@ -14,6 +14,7 @@ export const sportsDashboard: Project = {
     'Raspberry Pi',
   ],
   featured: true,
+  idea: 'I wanted a dedicated sports display that could sit on a desk, update itself automatically, and feel more like a polished product than another browser tab. What started as a simple idea eventually became an opportunity to explore real-time communication, embedded hardware, and thoughtful interface design.',
   problem: 'I wanted a dedicated sports display that could run continuously on a small device while providing live game information without requiring user interaction.',
   solution: 'I designed a full-stack application with a React frontend, Fastify backend, and Server-Sent Events architecture to efficiently deliver real-time updates.',
   lessons: [
@@ -61,6 +62,28 @@ export const sportsDashboard: Project = {
     {
       src: '/projects/sports-dashboard/dashboard.png',
       alt: 'Sports Dashboard running on a dedicated display'
+    }
+  ],
+  metadata: [
+    {
+      label: 'Built',
+      value: '2026'
+    },
+    {
+      label: 'Role',
+      value: 'Solo Developer'
+    },
+    {
+      label: 'Status',
+      value: 'Active'
+    },
+    {
+      label: 'Platform',
+      value: 'Raspberry Pi'
+    },
+    {
+      label: 'Deployment',
+      value: 'Cloudflare + Render'
     }
   ]
 }

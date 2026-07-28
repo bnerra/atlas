@@ -14,6 +14,11 @@ export interface ProjectImage {
   alt: string
 }
 
+export interface ProjectMetadata {
+  label: string
+  value: string
+}
+
 export interface Project {
   slug: string
   title: string
@@ -21,10 +26,12 @@ export interface Project {
   description: string
   technologies: string[]
   featured: boolean
+  idea?: string
   problem: string
   solution: string
   lessons: string[]
   architecture?: ArchitectureNode[]
   challenges?: ChallengeNode[]
   images?: ProjectImage[]
+  metadata?: ProjectMetadata[]
 }

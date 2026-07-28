@@ -8,6 +8,8 @@ import { projects } from '@/data/projects'
 import ArchitectureSection from '@/components/projects/ArchitectureSection'
 import ChallengeSection from '@/components/projects/ChallengeSection'
 import ProjectShowcase from '@/components/projects/ProjectShowcase'
+import ProjectMetadata from '@/components/projects/ProjectMetadata'
+import IdeaSection from '@/components/projects/IdeaSection'
 
 interface ProjectPageProps {
   params: Promise<{
@@ -30,9 +32,17 @@ export default async function ProjectPage({
     <Container>
       <ProjectHero project={project} />
       <ProjectShowcase project={project} />
+      {project.metadata && (
+        <ProjectMetadata metadata={project.metadata} />
+      )}
+      {project.idea && (
+        <IdeaSection idea={project.idea} />
+      )}
       <ProblemSection problem={project.problem} />
       <SolutionSection solution={project.solution} />
-      <ArchitectureSection architecture={project.architecture ?? []} />
+      {project.architecture && (
+        <ArchitectureSection architecture={project.architecture} />
+      )}
       {project.challenges && (
         <ChallengeSection challenges={project.challenges} />
       )}
