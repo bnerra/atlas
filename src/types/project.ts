@@ -9,6 +9,11 @@ export interface ChallengeNode {
   description: string
 }
 
+export interface ProjectImage {
+  src: string
+  alt: string
+}
+
 export interface Project {
   slug: string
   title: string
@@ -21,4 +26,5 @@ export interface Project {
   lessons: string[]
   architecture?: ArchitectureNode[]
   challenges?: ChallengeNode[]
+  images?: ProjectImage[]
 }

@@ -56,5 +56,11 @@ export const sportsDashboard: Project = {
       title: 'Managing Deployment Complexity',
       description: 'Separating frontend and backend deployments introduced real-world concerns around reliability, configuration, and communication between services.'
     }
+  ],
+  images: [
+    {
+      src: '/projects/sports-dashboard/dashboard.png',
+      alt: 'Sports Dashboard running on a dedicated display'
+    }
   ]
 }
