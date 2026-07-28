@@ -24,23 +24,37 @@ export const sportsDashboard: Project = {
   architecture: [
     {
       name: 'MLB Stats API',
-      description: 'Live baseball data source',
+      description: 'Live baseball data source'
     },
     {
       name: 'Fastify API',
-      description: 'Backend service responsible for data processing',
+      description: 'Backend service responsible for data processing'
     },
     {
       name: 'Server-Sent Events',
-      description: 'Real-time updates from server to client',
+      description: 'Real-time updates from server to client'
     },
     {
       name: 'React Interface',
-      description: 'Responsive dashboard experience',
+      description: 'Responsive dashboard experience'
     },
     {
       name: 'Raspberry Pi',
-      description: 'Dedicated always-on display hardware',
+      description: 'Dedicated always-on display hardware'
+    }
+  ],
+  challenges: [
+    {
+      title: 'Designing for Dedicated Hardware',
+      description: 'Creating an interface optimized for a 1024x600 display required thinking beyond traditional responsive web layouts.'
+    },
+    {
+      title: 'Building Real-Time Updates',
+      description: 'Choosing Server-Sent Events provided a lightweight solution for continuously delivering live game information.'
+    },
+    {
+      title: 'Managing Deployment Complexity',
+      description: 'Separating frontend and backend deployments introduced real-world concerns around reliability, configuration, and communication between services.'
     }
   ]
 }

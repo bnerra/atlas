@@ -4,6 +4,11 @@ export interface ArchitectureNode {
   description?: string
 }
 
+export interface ChallengeNode {
+  title: string
+  description: string
+}
+
 export interface Project {
   slug: string
   title: string
@@ -15,4 +20,5 @@ export interface Project {
   solution: string
   lessons: string[]
   architecture?: ArchitectureNode[]
+  challenges?: ChallengeNode[]
 }
