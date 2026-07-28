@@ -1,11 +1,11 @@
-import Container from '@/components/ui/Container'
-import Card from '@/components/ui/Card'
+import CurrentBearing from '@/components/home/CurrentBearing'
 import Hero from '@/components/home/Hero'
 
 export default function Home() {
   return (
     <>
       <Hero />
+      <CurrentBearing />
     </>
     // <main className='min-h-screen'>
     //   <Container>

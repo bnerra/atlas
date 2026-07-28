@@ -1,5 +1,6 @@
-/* eslint-disable @next/next/no-html-link-for-pages */
 import Container from '@/components/ui/Container'
+import { navigation, NavigationItem } from '@/data/navigation'
+import Link from 'next/link'
 
 export default function Header() {
   return (
@@ -21,18 +22,12 @@ export default function Header() {
           </div>
 
           <nav className='hidden gap-8 text-sm text-(--atlas-text-muted)'>
-            <a href='/'>
-              Home
-            </a>
-            <a href='/projects'>
-              Projects
-            </a>
-            <a href='/about'>
-              About
-            </a>
-            <a href='/resume'>
-              Resume
-            </a>
+            {navigation.map((item: NavigationItem) => (
+              <Link key={item.href} href={item.href}>
+                {item.label}
+              </Link>
+            ))}
+
           </nav>
         </div>
       </Container>
