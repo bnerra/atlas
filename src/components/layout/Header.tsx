@@ -11,24 +11,42 @@ export default function Header() {
         z-50
         border-b
         border-atlas-border
-        bg-[rgba(11,18,32,0.75)]
+        bg-atlas-background/80
         backdrop-blur-md
       '
     >
       <Container>
-        <div className='flex h-20 items-center justify-between'>
-          <div className='text-xl font-semibold tracking-tight'>
-            Atlas
-          </div>
+        <div className='flex h-18 items-center justify-between'>
 
-          <nav className='hidden gap-8 text-sm text-(--atlas-text-muted)'>
-            {navigation.map((item: NavigationItem) => (
-              <Link key={item.href} href={item.href}>
-                {item.label}
-              </Link>
-            ))}
+          <Link
+            href='/'
+            className='text-lg font-semibold tracking-[0.2em]'
+          >
+            <span className='tracking-[0.35em] uppercase'>
+              ATLAS
+            </span>
+          </Link>
 
+          <nav>
+            <ul className='flex items-center gap-8'>
+              {navigation.map((item: NavigationItem) => (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    className='
+                      text-sm
+                      text-atlas-muted
+                      transition-colors
+                      hover:text-atlas-foreground
+                    '
+                  >
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </nav>
+
         </div>
       </Container>
     </header>
