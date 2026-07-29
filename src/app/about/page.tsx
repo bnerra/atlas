@@ -6,46 +6,22 @@ import BeyondCode from '@/components/about/BeyondCode'
 
 export default function AboutPage() {
   return (
-    <>
-    <main className='space-y-16'>
+    <main
+      className='
+        mx-auto
+        w-full
+        max-w-6xl
+        space-y-16
+        px-6
+        py-12
+        sm:px-8
+        lg:px-10
+      '
+    >
       <AboutHero content={aboutContent.hero} />
       <StoryTimeline items={aboutContent.timeline} />
       <PhilosophyGrid items={aboutContent.philosophy} />
       <BeyondCode items={aboutContent.influences} />
     </main>
-    {/* <section
-  className="
-    mt-24
-    pb-12
-    text-center
-  "
->
-  <div
-    className="
-      mx-auto
-      mb-5
-      h-1.5
-      w-1.5
-      rounded-full
-      bg-(--atlas-accent)
-      opacity-60
-    "
-  />
-
-  <p
-    className="
-      text-sm
-      italic
-      tracking-wide
-      text-(--atlas-text-muted)
-      opacity-80
-    "
-  >
-    The journey continues.
-    <br />
-    Learning is living.
-  </p>
-</section> */}
-    </>
   )
 }
