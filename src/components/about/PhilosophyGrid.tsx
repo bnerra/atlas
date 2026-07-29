@@ -16,7 +16,7 @@ export default function PhilosophyGrid({
             text-sm
             uppercase
             tracking-[0.25em]
-            text-(--atlas-text-muted)
+            text-atlas-muted
           '
         >
           Engineering Philosophy
@@ -28,7 +28,7 @@ export default function PhilosophyGrid({
             text-3xl
             font-semibold
             tracking-tight
-            text-(--atlas-text)
+            text-atlas-foreground
           '
         >
           How I approach building
@@ -62,20 +62,20 @@ function PhilosophyCard({
         rounded-2xl
         border
         border-white/10
-        bg-(--atlas-surface)
+        bg-atlas-surface
         p-6
         shadow-[0_10px_30px_rgba(0,0,0,0.18)]
         transition
         duration-300
         hover:-translate-y-1
-        hover:border-(--atlas-accent)
+        hover:border-atlas-accent
       '
     >
       <h3
         className='
           text-xl
           font-medium
-          text-(--atlas-text)
+          text-atlas-foreground
         '
       >
         {item.title}
@@ -85,7 +85,7 @@ function PhilosophyCard({
         className='
           mt-4
           leading-relaxed
-          text-(--atlas-text-muted)
+          text-atlas-muted
         '
       >
         {item.description}

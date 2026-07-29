@@ -13,7 +13,7 @@ export default function BeyondCode({
             text-sm
             uppercase
             tracking-[0.25em]
-            text-(--atlas-text-muted)
+            text-atlas-muted
           '
         >
           Beyond the Code
@@ -24,7 +24,7 @@ export default function BeyondCode({
             text-3xl
             font-semibold
             tracking-tight
-            text-(--atlas-text)
+            text-atlas-foreground
           '
         >
           The experiences that continue to shape my perspective
@@ -45,12 +45,12 @@ export default function BeyondCode({
               rounded-xl
               border
               border-white/10
-              bg-(--atlas-surface)
+              bg-atlas-surface
               px-5
               py-4
               transition
               duration-300
-              hover:border-(--atlas-accent)
+              hover:border-atlas-accent
               hover:-translate-y-1
             '
           >
@@ -60,11 +60,11 @@ export default function BeyondCode({
                   h-2
                   w-2
                   rounded-full
-                  bg-(--atlas-accent)
-                  shadow-[0_0_10px_var(--atlas-accent)]
+                  bg-atlas-accent
+                  shadow-[0_0_10px_var(--color-atlas-accent)]
                 '
               />
-              <p className='text-(--atlas-text)'>
+              <p className='text-atlas-foreground'>
                 {item}
               </p>
             </div>
@@ -86,7 +86,7 @@ export default function BeyondCode({
             text-sm
             italic
             tracking-wide
-            text-(--atlas-text-muted)
+            text-atlas-muted
             opacity-80
           '
         >

@@ -16,7 +16,7 @@ function TimelineNode({
         rounded-2xl
         border
         border-white/10
-        bg-(--atlas-surface)
+        bg-atlas-surface
         p-6
         shadow-[0_10px_30px_rgba(0,0,0,0.18)]
         transition
@@ -27,6 +27,8 @@ function TimelineNode({
 
       {/* waypoint marker */}
 
+      {/* TODO: Fix marker location for mobile, */}
+
       <div
         className='
           absolute
@@ -36,17 +38,17 @@ function TimelineNode({
           w-4
           rounded-full
           border
-          border-(--atlas-accent)
-          bg-(--atlas-background)
-          shadow-[0_0_18px_var(--atlas-accent)]
+          border-atlas-accent
+          bg-atlas-background
+          shadow-[0_0_18px_var(--color-atlas-accent)]
         '
       />
 
-      <h3 className='text-xl font-medium text-(--atlas-text)'>
+      <h3 className='text-xl font-medium text-atlas-foreground'>
         {item.title}
       </h3>
 
-      <p className='mt-3 leading-relaxed text-(--atlas-text-muted)'>
+      <p className='mt-3 leading-relaxed text-atlas-muted'>
         {item.description}
       </p>
     </article>
@@ -64,7 +66,7 @@ export default function StoryTimeline({
             text-sm
             uppercase
             tracking-[0.25em]
-            text-(--atlas-text-muted)
+            text-atlas-muted
           '
         >
           The Journey
@@ -76,7 +78,7 @@ export default function StoryTimeline({
             text-3xl
             font-semibold
             tracking-tight
-            text-(--atlas-text)
+            text-atlas-foreground
           '
         >
           Waypoints that shaped the path

@@ -15,7 +15,7 @@ export default function AboutHero({
         rounded-3xl
         border
         border-white/10
-        bg-(--atlas-surface)
+        bg-atlas-surface
         px-6
         py-12
         shadow-[0_20px_60px_rgba(0,0,0,0.25)]
@@ -27,7 +27,7 @@ export default function AboutHero({
         className='
           absolute
           inset-0
-          bg-[radial-gradient(circle_at_top_right,var(--atlas-accent),transparent_35%)]
+          bg-[radial-gradient(circle_at_top_right,var(--color-atlas-accent),transparent_35%)]
           opacity-10
         '
       />
@@ -38,7 +38,7 @@ export default function AboutHero({
             text-sm
             uppercase
             tracking-[0.25em]
-            text-(--atlas-text-muted)
+            text-atlas-muted
           '
         >
           About Atlas
@@ -49,18 +49,18 @@ export default function AboutHero({
             text-4xl
             font-semibold
             tracking-tight
-            text-(--atlas-text)
+            text-atlas-foreground
             sm:text-5xl
           '
         >
           {content.title}
         </h1>
 
-        <p className='mt-4 text-xl text-(--atlas-accent)'>
+        <p className='mt-4 text-xl text-atlas-accent'>
           {content.subtitle}
         </p>
 
-        <p className='mt-8 max-w-2xl leading-relaxed text-(--atlas-text-muted)'>
+        <p className='mt-8 max-w-2xl leading-relaxed text-atlas-muted'>
           {content.introduction}
         </p>
       </div>
