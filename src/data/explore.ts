@@ -2,7 +2,7 @@
 export interface ExploreItem {
   label: string
   description: string
-  href: string
+  href?: string
 }
 
 export const exploreItems: ExploreItem[] = [
@@ -16,14 +16,13 @@ export const exploreItems: ExploreItem[] = [
     description: 'My background, journey and approach to building software.',
     href: '/about'
   },
-  // {
-  //   label:'Writing',
-  //   description: 'Thoughts, lessons learned and technical explorations.',
-  //   href: '/writing'
-  // },
   {
     label:'Resume',
     description: 'Experience, skills and technologies.',
     href: '/resume'
+  },
+  {
+    label: 'Writing',
+    description: 'Essays, technical deep dives, and lessons learned.'
   }
 ]
