@@ -17,11 +17,6 @@ export const navigation: NavigationItem[] = [
     href: '/about'
   },
   {
-    label:'Writing',
-    description: 'Thoughts, lessons learned and technical explorations.',
-    href: '/writing'
-  },
-  {
     label:'Resume',
     description: 'Experience, skills and technologies.',
     href: '/resume'

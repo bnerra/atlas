@@ -15,7 +15,7 @@ export default function ResumePage() {
         mx-auto
         w-full
         max-w-6xl
-        space-y-16
+        space-y-14
         px-6
         py-12
         sm:px-8

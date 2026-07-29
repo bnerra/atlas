@@ -6,7 +6,6 @@ export default function ProjectNavigation() {
   return (
     <aside className='hidden xl:block sticky top-32 self-start'>
       <nav>
-
         <p className='mb-6 text-xs uppercase tracking-[0.25em] text-atlas-muted'>
           On this page
         </p>
@@ -23,7 +22,6 @@ export default function ProjectNavigation() {
             </li>
           ))}
         </ul>
-
       </nav>
     </aside>
   )

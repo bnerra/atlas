@@ -41,7 +41,7 @@ export default function AboutHero({
             text-atlas-muted
           '
         >
-          About
+          Nickolas Berra
         </p>
 
         <h1

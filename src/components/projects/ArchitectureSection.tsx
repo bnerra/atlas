@@ -10,7 +10,7 @@ export default function ArchitectureSection({
 }: ArchitectureSectionProps) {
   return (
     <ProjectSection id='architecture' title='Architecture'>
-      <div className='space-y-4'>
+      <div>
         {architecture.map((node, index) => (
           <div key={node.name}>
             <div

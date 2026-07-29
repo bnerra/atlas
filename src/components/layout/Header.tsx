@@ -22,7 +22,7 @@ export default function Header() {
             href='/'
             className='text-lg font-semibold tracking-[0.2em]'
           >
-            <span className='tracking-[0.35em] uppercase'>
+            <span className='tracking-[0.15em] uppercase'>
               ATLAS
             </span>
           </Link>

@@ -16,11 +16,11 @@ export const exploreItems: ExploreItem[] = [
     description: 'My background, journey and approach to building software.',
     href: '/about'
   },
-  {
-    label:'Writing',
-    description: 'Thoughts, lessons learned and technical explorations.',
-    href: '/writing'
-  },
+  // {
+  //   label:'Writing',
+  //   description: 'Thoughts, lessons learned and technical explorations.',
+  //   href: '/writing'
+  // },
   {
     label:'Resume',
     description: 'Experience, skills and technologies.',

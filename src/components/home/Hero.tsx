@@ -5,8 +5,7 @@ export default function Hero() {
   return (
     <section className='relative overflow-hidden'>
       <Container>
-        <div className='py-24 md:py-32 lg:py-40'>
-
+        <div className='py-14 md:py-32 lg:py-20'>
           <p className='mb-6 text-sm uppercase tracking-[0.25em] text-atlas-accent'>
             {profile.intro}
           </p>
@@ -18,7 +17,6 @@ export default function Hero() {
           <p className='mt-8 max-w-2xl text-xl leading-relaxed text-atlas-muted'>
             {profile.tagline}
           </p>
-          
         </div>
       </Container>
     </section>

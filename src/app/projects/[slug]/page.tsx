@@ -31,7 +31,7 @@ export default async function ProjectPage({
 
   return (
     <Container>
-      <div className='grid gap-16 xl:grid-cols-[240px_1fr]'>
+      <div className='grid gap-4 xl:grid-cols-[240px_1fr]'>
         <ProjectNavigation />
 
         <main>

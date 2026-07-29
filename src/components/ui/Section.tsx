@@ -14,9 +14,8 @@ export default function Section({
   children
 }: SectionProps) {
   return (
-    <section className='py-20 md:py-28'>
-      <div className='mb-12'>
-
+    <section className='py-10 md:py-14'>
+      <div className='mb-10'>
         {eyebrow && (
           <p className='mb-3 text-sm uppercase tracking-[0.25em] text-atlas-accent'>
             {eyebrow}
@@ -32,9 +31,7 @@ export default function Section({
             {description}
           </p>
         )}
-
       </div>
-
       {children}
     </section>
   )

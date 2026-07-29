@@ -12,8 +12,7 @@ export default function ProjectHero({
 }: ProjectHeroProps) {
 
   return (
-    <section className='py-20 md:py-28'>
-
+    <section className='py-14 md:py-18'>
       <p className='
         mb-4
         text-sm
@@ -69,21 +68,6 @@ export default function ProjectHero({
           target='_blank'
         >
           View Source
-        </Button> 
-        <Button
-          href='/projects'
-        >
-          Back to Projects
-          <span
-            aria-hidden
-            className='
-              transition-transform
-              duration-300
-              group-hover:translate-x-1
-            '
-          >
-            →
-          </span>
         </Button> 
       </div>
     </section>
