@@ -19,6 +19,11 @@ export interface ProjectMetadata {
   value: string
 }
 
+export interface ProjectAction {
+  label: string
+  href: string
+}
+
 export interface Project {
   slug: string
   title: string
@@ -26,6 +31,7 @@ export interface Project {
   description: string
   technologies: string[]
   featured: boolean
+  actions: ProjectAction[]
   idea?: string
   problem: string
   solution: string

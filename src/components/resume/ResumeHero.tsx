@@ -19,10 +19,10 @@ export default function ResumeHero({
         border-white/10
         bg-atlas-surface
         px-6
-        py-12
+        py-8
         shadow-[0_20px_60px_rgba(0,0,0,0.25)]
         sm:px-10
-        sm:py-16
+        sm:py-10
       '
     >
       <div

@@ -72,6 +72,7 @@ export default function ResumeActions({
               key={action.label}
               href={action.href}
               target={action.external ? '_blank' : undefined}
+              download={action.downloadName ? `${action.downloadName}` : undefined}
               className='
                 inline-flex
                 items-center

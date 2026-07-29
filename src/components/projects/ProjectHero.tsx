@@ -1,7 +1,7 @@
 'use client';
 import Badge from '@/components/ui/Badge'
-import Button from '@/components/ui/Button'
 import { Project } from '@/types/project'
+import Link from 'next/link'
 
 interface ProjectHeroProps {
   project: Project
@@ -56,19 +56,33 @@ export default function ProjectHero({
         ))}
       </div>
 
-      <div className='mt-10 flex flex-wrap gap-4'> 
-        <Button
-          href='https://info-ticker-ui.nberra90.workers.dev/'
-          target='_blank'
-        >
-          Live Demo
-        </Button> 
-        <Button
-          href='https://github.com/bnerra/info-ticker-api'
-          target='_blank'
-        >
-          View Source
-        </Button> 
+      <div className='mt-10 flex flex-wrap gap-4'>
+        {project.actions.map((action) => (
+          <Link
+            key={action.label}
+            href={action.href}
+            target='_blank'
+            className='
+              inline-flex
+              items-center
+              justify-center
+              rounded-xl
+              border
+              border-atlas-accent
+              px-5
+              py-3
+              font-medium
+              text-atlas-accent
+              transition
+              duration-300
+              hover:-translate-y-0.5
+              hover:bg-atlas-accent
+              hover:text-atlas-background
+            '
+          >
+            {action.label}
+          </Link>
+        ))}
       </div>
     </section>
   )

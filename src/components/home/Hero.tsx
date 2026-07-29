@@ -1,10 +1,10 @@
-import Container from '@/components/ui/Container'
+// import Container from '@/components/ui/Container'
 import { profile } from '@/data/profile'
 
 export default function Hero() {
   return (
     <section className='relative overflow-hidden'>
-      <Container>
+      {/* <Container> */}
         <div className='py-14 md:py-32 lg:py-20'>
           <p className='mb-6 text-sm uppercase tracking-[0.25em] text-atlas-accent'>
             {profile.intro}
@@ -18,7 +18,7 @@ export default function Hero() {
             {profile.tagline}
           </p>
         </div>
-      </Container>
+      {/* </Container> */}
     </section>
   )
 }

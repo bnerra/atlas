@@ -8,6 +8,7 @@ export interface ResumeAction {
   label: string
   href: string
   external?: boolean
+  downloadName?: string
 }
 
 export interface CareerHighlight {
@@ -48,11 +49,13 @@ export const resumeContent: ResumeContent = {
   actions: [
     {
       label: 'View Resume',
-      href: '/resume.pdf'
+      href: '/files/SoftwareEngineerResume2026.pdf',
+      external: true
     },
     {
       label: 'Download PDF',
-      href: '/resume.pdf'
+      href: '/files/SoftwareEngineerResume2026.pdf',
+      downloadName: 'Nickolas_Berra_Resume.pdf'
     }
   ],
 //   actions: [
