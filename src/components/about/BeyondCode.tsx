@@ -75,8 +75,8 @@ export default function BeyondCode({
         <div
           className='
             mx-auto
-            mb-8
-            h-0.5
+            mb-10
+            h-px
             w-20
             bg-white/10
           '

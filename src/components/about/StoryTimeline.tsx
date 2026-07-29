@@ -27,13 +27,11 @@ function TimelineNode({
 
       {/* waypoint marker */}
 
-      {/* TODO: Fix marker location for mobile, */}
-
       <div
         className='
           absolute
           left-[-2.15rem]
-          top-7
+          top-8
           h-4
           w-4
           rounded-full

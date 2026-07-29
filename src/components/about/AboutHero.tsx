@@ -41,7 +41,7 @@ export default function AboutHero({
             text-atlas-muted
           '
         >
-          About Atlas
+          About
         </p>
 
         <h1

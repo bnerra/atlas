@@ -1,3 +1,4 @@
+'use client';
 import Badge from '@/components/ui/Badge'
 import Button from '@/components/ui/Button'
 import { Project } from '@/types/project'
@@ -56,12 +57,35 @@ export default function ProjectHero({
         ))}
       </div>
 
-      <div className='mt-10'>
-        <Button href='/projects'>
+      <div className='mt-10 flex flex-wrap gap-4'> 
+        <Button
+          href='https://info-ticker-ui.nberra90.workers.dev/'
+          target='_blank'
+        >
+          Live Demo
+        </Button> 
+        <Button
+          href='https://github.com/bnerra/info-ticker-api'
+          target='_blank'
+        >
+          View Source
+        </Button> 
+        <Button
+          href='/projects'
+        >
           Back to Projects
-        </Button>
+          <span
+            aria-hidden
+            className='
+              transition-transform
+              duration-300
+              group-hover:translate-x-1
+            '
+          >
+            →
+          </span>
+        </Button> 
       </div>
-
     </section>
   )
 }

@@ -19,7 +19,7 @@ export default function ResumePage() {
         px-6
         py-12
         sm:px-8
-        lg:px-10
+        lg:px-6
       '
     >
       <ResumeHero content={resumeContent.hero} />

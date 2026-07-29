@@ -1,18 +1,22 @@
 import Link from 'next/link'
-import { ReactNode } from 'react'
+import {ReactNode } from 'react'
 
 interface ButtonProps {
   href: string
   children: ReactNode
+  target?: string
 }
 
 export default function Button({
   href,
-  children
+  children,
+  target
 }: ButtonProps) {
   return (
     <Link
       href={href}
+      target={target}
+      rel='noopener noreferrer'
       className='
         group
         inline-flex
@@ -37,7 +41,7 @@ export default function Button({
     >
       {children}
 
-      <span
+      {/* <span
         aria-hidden
         className='
           transition-transform
@@ -46,7 +50,7 @@ export default function Button({
         '
       >
         →
-      </span>
+      </span> */}
     </Link>
   )
 }

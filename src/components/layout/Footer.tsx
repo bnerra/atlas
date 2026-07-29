@@ -4,7 +4,7 @@ import { SocialLink, socials } from '@/data/socials'
 
 export default function Footer() {
   return (
-    <footer className='mt-32 border-t border-atlas-border'>
+    <footer className='border-t border-atlas-border'>
       <Container>
         {/* <div className='py-8 text-sm text-atlas-muted flex justify-between'> */}
         <div className='flex flex-col gap-8 py-12 md:flex-row md:items-center md:justify-between'>

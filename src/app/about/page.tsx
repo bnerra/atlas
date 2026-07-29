@@ -11,11 +11,11 @@ export default function AboutPage() {
         mx-auto
         w-full
         max-w-6xl
-        space-y-16
+        space-y-14
         px-6
         py-12
         sm:px-8
-        lg:px-10
+        lg:px-6
       '
     >
       <AboutHero content={aboutContent.hero} />
