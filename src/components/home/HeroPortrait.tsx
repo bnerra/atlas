@@ -5,7 +5,12 @@ export default function HeroPortrait() {
     <div
       className='
         relative
+        mx-auto
         w-full
+        max-w-60
+        sm:max-w-70
+        md:max-w-[320px]
+        xl:max-w-90
       '
     >
       {/* Ambient glow */}
@@ -33,8 +38,7 @@ export default function HeroPortrait() {
         '
       >
         <Image
-          // src='/images/profile-placeholder.jpg'
-          src='/images/profile_picture.jfif'
+          src='/images/profile.png'
           alt='Portrait of Nickolas Berra'
           width={500}
           height={650}

@@ -9,7 +9,16 @@ export default function Home() {
   return (
     <>
       <Container>
-        <section className='grid gap-16 items-center lg:grid-cols-[minmax(0,1fr)_380px]'>
+        <section
+          className='
+            grid
+            gap-2
+            items-center
+            md:grid-cols-[minmax(0,1fr)_280px]
+            lg:grid-cols-[minmax(0,1fr)_320px]
+            xl:grid-cols-[minmax(0,1fr)_360px]
+          '
+        >
           <Hero />
           <HeroPortrait />
         </section>
