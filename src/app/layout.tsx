@@ -15,8 +15,12 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://nberra.dev'),
   title: 'Atlas',
   description: 'The personal site of Nickolas Berra',
+  openGraph: {
+    images: ['/images/A_Thumbnail.jpg'],
+  }
 }
 
 export default function RootLayout({
