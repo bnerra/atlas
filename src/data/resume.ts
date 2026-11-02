@@ -49,12 +49,12 @@ export const resumeContent: ResumeContent = {
   actions: [
     {
       label: 'View Resume',
-      href: '/files/SoftwareEngineerResume2026.pdf',
+      href: '/files/SoftwareEngineerResume.pdf',
       external: true
     },
     {
       label: 'Download PDF',
-      href: '/files/SoftwareEngineerResume2026.pdf',
+      href: '/files/SoftwareEngineerResume.pdf',
       downloadName: 'Nickolas_Berra_Resume.pdf'
     }
   ],
